@@ -1,0 +1,90 @@
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#titleName {
+    font-family: 'Cinzel', serif;
+    color: #1a5032;
+    font-style: bold;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.bodyImg {
+    width: 400px;
+    height: 400px;
+}
+
+.bodyImg2 {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    align-content: center;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+}
+
+.gallerySpot:hover {
+    border: 1px solid lightgray;
+    color: gray;
+}
+
+/* ---------------------------------- */
+/* From here on is the Navbar Styling */
+/* ---------------------------------- */
+
+/* Style the navbar */
+#navbar {
+    overflow: auto;
+    background-color: #1a5032;
+    text-align: center;
+}
+
+/* Navbar links */
+#navbar a {
+    font-family: 'Cinzel', serif;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+/* Navbar Links on Hover */
+#navbar a:hover {
+    background-color: seagreen;
+}
+
+/* Page content */
+.content {
+    padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky+.content {
+    padding-top: 60px;
+}
+
+/* ------------------------------- */
+/*         Bottom Navbar           */
+/* ------------------------------- */
+
+#bottomNav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
