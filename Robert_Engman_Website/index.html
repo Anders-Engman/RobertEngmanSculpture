@@ -5,8 +5,8 @@
     <title>Robert Engman</title>
 
     <!--Bootstrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Cinzel Font -->
     <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
 
@@ -21,7 +21,7 @@
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 
     <!-- Local JavaScript -->
-    <script src="JS/logic.js"></script>
+    <script type="text/javascript" src="JS/logic.js"></script>
 </head>
 
 <body>
@@ -51,7 +51,7 @@
 
     <hr>
 
-    <div class="row">
+    <div class="row bodyContent">
         <div class="col-md-1">
         </div>
 
@@ -80,7 +80,7 @@
 
     <hr>
 
-    <div class="row">
+    <div class="row bodyContent">
         <div class="col-md-1">
         </div>
 
@@ -109,28 +109,29 @@
 
     <hr>
 
-    <div class="row">
+    <div class="row bodyContent">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <h3>Galleries in Which Robert's Work is Displayed</h3>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+
+    <div class="row bodyContent">
         <div class="col-md-2">
         </div>
 
         <div class="col-md-4">
-            <div class="container gallerySpot" href="https://grahamshay.com/" target="_blank">
-                <h1>Graham Gallery</h1>
-                <p>Mauris tempus mi eget justo malesuada rutrum. Praesent facilisis placerat
-                    sapien at gravida. Nulla enim est, commodo in libero et, sagittis elementum lorem. Aenean pretium
-                    convallis turpis eget rutrum. Etiam facilisis orci a diam volutpat scelerisque. Quisque eget sem
-                    rhoncus, iaculis purus facilisis, egestas sem.</p>
+            <div class="container gallerySpot">
+                <a href="https://grahamshay.com/" target="_blank">Graham Shay Gallery</a>
+                <p>Address: 123 First Street, New York City, New York</p>
             </div>
         </div>
 
         <div class="col-md-4">
-            <div class="container gallerySpot" href="https://averygalleries.com/" target="_blank">
-                <h1>Avery Gallery</h1>
-                <p>Mauris tempus mi eget justo malesuada rutrum. Praesent facilisis placerat
-                    sapien at gravida. Nulla enim est, commodo in libero et, sagittis elementum lorem. Aenean
-                    pretium
-                    convallis turpis eget rutrum. Etiam facilisis orci a diam volutpat scelerisque. Quisque eget sem
-                    rhoncus, iaculis purus facilisis, egestas sem.</p>
+            <div class="container gallerySpot">
+                <a href="https://averygalleries.com/" target="_blank">Avery Gallery</a>
+                <p>Address: 456 Main Street, Bryn Mawr, Pennsylvania
             </div>
         </div>
 
@@ -140,7 +141,7 @@
 
     <hr>
 
-    <div class="row">
+    <div class="row bodyContent">
         <div class="col-md-3">
         </div>
 
@@ -161,6 +162,14 @@
 
         <div class="col-md-3">
         </div>
+    </div>
+
+    <div id="mySidenav" class="sidenav sticky">
+        <a href="#" id="largePieces">Large</a>
+        <a href="#" id="mediumPieces">Medium</a>
+        <a href="#" id="smallPieces">Small</a>
+        <a href="mailto:contact@robertengman.com?Subject=Contact%20from%20RobertEngman.com" id="contact">Email <div
+                class="glyphicon glyphicon-envelope"></div></a>
     </div>
 
     <div id="bottomNav">

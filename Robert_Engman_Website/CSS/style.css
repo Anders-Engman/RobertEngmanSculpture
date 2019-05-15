@@ -7,35 +7,46 @@ body {
     font-family: 'Cinzel', serif;
     color: #1a5032;
     font-style: bold;
+    font-size: 40px;
 }
 
 .jumbotron {
     background-color: transparent;
 }
 
+h2,
+h3 {
+    font-family: 'Cinzel', serif;
+}
+
+.bodyContent {
+    opacity: 0;
+}
+
 .bodyImg {
     width: 400px;
-    height: 400px;
+    height: 500px;
+    display: inline-block;
+    align-content: center;
 }
 
 .bodyImg2 {
     width: 400px;
     height: 400px;
     display: inline-block;
-    align-content: center;
+    align-content: right;
 }
 
 p {
     font-family: 'EB Garamond', serif;
 }
 
-.gallerySpot:hover {
-    border: 1px solid lightgray;
-    color: gray;
+.gallerySpot {
+    display: inline-block;
 }
 
 /* ---------------------------------- */
-/* From here on is the Navbar Styling */
+/*        Top Navbar Styling          */
 /* ---------------------------------- */
 
 /* Style the navbar */
@@ -87,4 +98,58 @@ p {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+
+/* ------------------------------- */
+/*         Side Navbar           */
+/* ------------------------------- */
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: absolute;
+    /* Position them relative to the browser window */
+    left: -80px;
+    /* Position them outside of the screen */
+    transition: 0.3s;
+    /* Add transition on hover */
+    padding: 15px;
+    padding-right: 25px;
+    /* 15px padding */
+    width: 100px;
+    /* Set a specific width */
+    text-decoration: none;
+    /* Remove underline */
+    font-size: 15px;
+    /* Increase font size */
+    color: white;
+    /* White text color */
+    border-radius: 0 5px 5px 0;
+    /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+    left: 0;
+    /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#largePieces {
+    top: 20px;
+    background-color: #1f5f3b;
+}
+
+#mediumPieces {
+    top: 70px;
+    background-color: #246e45;
+}
+
+#smallPieces {
+    top: 120px;
+    background-color: #287c4e;
+}
+
+#contact {
+    top: 170px;
+    background-color: #2d8b57
 }
