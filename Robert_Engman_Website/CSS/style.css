@@ -37,12 +37,28 @@ h3 {
     align-content: right;
 }
 
+.sculGal {
+    width: 200px;
+    height: 200px;
+}
+
 p {
     font-family: 'EB Garamond', serif;
 }
 
+/* Alignment of Gallery Section Divs */
 .gallerySpot {
     display: inline-block;
+    align-content: left;
+}
+
+/* Aligning Address Text */
+.gallerySpotText {
+    text-align: justify;
+}
+
+.galleryTitle {
+    text-align: center;
 }
 
 /* ---------------------------------- */
